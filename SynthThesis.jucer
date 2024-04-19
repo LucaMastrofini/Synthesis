@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ry1y17" name="SynthThesis" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              headerPath="C:\Users\Masterfine\Documents\JUCE_libs\maximilian"
+              pluginFormats="buildAU,buildStandalone,buildVST3" pluginChannelConfigs="{0, 2}"
+              pluginManufacturer="LIM" aaxIdentifier="com.LIM.SynthThesis"
+              bundleIdentifier="com.LIM.SynthThesis" pluginManufacturerCode="LIM!">
+  <MAINGROUP id="MfisWQ" name="SynthThesis">
+    <GROUP id="{E264D510-3212-39B0-7F77-B7AA43DF188D}" name="Source">
+      <FILE id="hwetcQ" name="Define.h" compile="0" resource="0" file="Source/Define.h"/>
+      <FILE id="PoD0yE" name="WaveForm.h" compile="0" resource="0" file="Source/WaveForm.h"/>
+      <FILE id="ARb7i3" name="WaveForm.cpp" compile="1" resource="0" file="Source/WaveForm.cpp"/>
+      <FILE id="nkymQv" name="Envelopes.cpp" compile="1" resource="0" file="Source/Envelopes.cpp"/>
+      <FILE id="d50LcQ" name="Envelopes.h" compile="0" resource="0" file="Source/Envelopes.h"/>
+      <FILE id="ovHogK" name="Mixer.cpp" compile="1" resource="0" file="Source/Mixer.cpp"/>
+      <FILE id="ICZjrj" name="Mixer.h" compile="0" resource="0" file="Source/Mixer.h"/>
+      <FILE id="iJrRCH" name="Filter.cpp" compile="1" resource="0" file="Source/Filter.cpp"/>
+      <FILE id="OLfBWf" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
+      <FILE id="QSzZLf" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="OhYrW0" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="dXsALM" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="ueJQpE" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="rJrERl" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="OJXjGf" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="TJyKLp" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="Dmdrky" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SynthThesis"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SynthThesis"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../JUCE/JUCE6.0.2/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
